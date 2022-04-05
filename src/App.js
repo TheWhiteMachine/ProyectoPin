@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import BarMenu from './Components/BarMenu';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Proyecto Pin
-      </header>
-    </div>
+   <div>
+    <BarMenu></BarMenu>
+   </div>
   );
 }
 
