@@ -1,11 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BarMenu from './Components/BarMenu';
+import Container from './Components/Container';
 
 function App() {
   return (
    <div>
-    <BarMenu></BarMenu>
+     <Container/>
    </div>
   );
 }
