@@ -1,12 +1,12 @@
 function BarMenu(){
     return(
         <div className="container">
-  <div className="row">
-    <div className="col">
-      LOGO EMPRESA
-    </div>
-    <div className="col">
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="row">
+            <div className="col">
+              <h1 className="MainTititule">CABAÑAPP</h1>
+            </div>
+        <div className="col">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                 <li className="nav-item active">
@@ -26,7 +26,7 @@ function BarMenu(){
                 </li>
                 </ul>
             </div>
-            </nav>
+        </nav>
     </div>
   </div>
 </div>

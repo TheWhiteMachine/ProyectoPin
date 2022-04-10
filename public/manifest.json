@@ -14,8 +14,28 @@
     },
     {
       "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "type": "image/jpg",
+      "sizes": "1366x768"
+    },
+    {
+      "src": "cabania.jpg",
+      "type": "image/jpg",
+      "sizes": "1366x768"
+    },
+    {
+      "src": "slider1.jpg",
+      "type": "image/jpg",
+      "sizes": "5616x3744"
+    },
+    {
+      "src": "slider2.jpg",
+      "type": "image/jpg",
+      "sizes": "5616x3744"
+    },
+    {
+      "src": "slider3.jpg",
+      "type": "image/jpg",
+      "sizes": "5616x3744"
     }
   ],
   "start_url": ".",
