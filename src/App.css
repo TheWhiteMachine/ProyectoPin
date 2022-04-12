@@ -62,30 +62,49 @@
  padding-right: 10px;
 }
 .container{
-  background-color: grey;
+  opacity: 0.95;
+  background-color: rgba(0, 0, 0,0.9) ;
   margin: 0%;
   max-width: 100%;
   border:none;
   border-style: solid;
-  border-bottom: 6px solid rgb(66, 65, 65);
+  /*border-bottom: 6px solid rgb(66, 65, 65);*/
   align-items: center;
 }
 
 .MailForm{
+ 
+  background: black;
   margin: 20px,20px;
+  width: 80vh;
+  opacity: 0.8;
+  border-radius: 3px;
+  border:none;
+  border-style: 1px solid;
 }
+.formulario{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+width: 60vh;
 
+ margin: 10px auto;
+}
 .WelcomeText{
   Color:White;
   opacity: 0.9;
-  padding-bottom: 50px;
-  margin-bottom: 70px;
+  padding-top: 10px;
+ 
   letter-spacing: 0.67px;
   background-repeat: no-repeat;
-  
+ 
+  margin: 25px;
 }
-.brgImg{
+
+.bkgImg{
   mask-repeat: no-repeat;
+  width: 300px;
+  
 }
 .col_menu{
  
