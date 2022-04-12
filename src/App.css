@@ -52,10 +52,15 @@
   align-items: center;
 }
 
-.MainTititule{
+.MainTititle{
   color:azure;
+ 
 }
-
+.menu{
+ padding: 10px;
+    background-color: rgba(0, 0, 0,0.03) ;
+ padding-right: 10px;
+}
 .container{
   background-color: grey;
   margin: 0%;
@@ -81,4 +86,12 @@
 }
 .brgImg{
   mask-repeat: no-repeat;
+}
+.col_menu{
+ 
+  background-color: rgba(0, 0, 0,0.03) ;
+}
+.navbar_menu{
+  
+  background-color: rgba(0, 0, 0,0.03) ;
 }

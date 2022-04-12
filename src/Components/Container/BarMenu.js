@@ -1,13 +1,13 @@
 function BarMenu(){
     return(
         <div className="container">
-        <div className="row">
+        <div className="row menu">
             <div className="col">
-              <h1 className="MainTititule">CABAÑAPP</h1>
+              <h1 className="MainTititle">CABAÑAPP</h1>
             </div>
-        <div className="col">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="col col_menu">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+            <div className="collapse navbar-collapse navbar_menu" id="navbarNav">
                 <ul className="navbar-nav">
                 <li className="nav-item active">
                     <a className="nav-link" href="www.google.com">Home <span className="sr-only"></span></a>
