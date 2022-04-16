@@ -10,14 +10,17 @@ import SliderX3 from "./SliderX3";
 function Container(){
     return (
     <div className="MainContainer">
-           {/* <img className="backgroundimg" src={process.env.PUBLIC_URL +'./cabania.jpg'} alt="imagen de fondo"></img> */}
-           <BarMenu/>
+        {/* <img className="backgroundimg" src={process.env.PUBLIC_URL +'./cabania.jpg'} alt="imagen de fondo"></img> */}
+        <BarMenu/>
            <WelcomeMesagge/>
+           <bk></bk>
            <SliderX3/>
+           <bk></bk>
            <FullText/>
            <CenteredSlider/>
            <SliderAcordion/>
            <FormComponent/>
+          
        </div> 
         
 

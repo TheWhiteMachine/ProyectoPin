@@ -1,9 +1,8 @@
 .App {
   text-align: center;
   /* background-color: ffffff; */
-
-
 }
+
 
 
 .App-logo {
@@ -58,7 +57,7 @@
 }
 .menu{
  padding: 10px;
-    background-color: rgba(0, 0, 0,0.03) ;
+ background-color: rgba(0, 0, 0,0.03) ;
  padding-right: 10px;
 }
 .container{
@@ -86,14 +85,13 @@
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-width: 60vh;
-
- margin: 10px auto;
+  width: 60vh;
+  margin: 10px auto;
 }
 .WelcomeText{
   Color:White;
   opacity: 0.9;
-  padding-top: 10px;
+  padding-top: 10px; 
  
   letter-spacing: 0.67px;
   background-repeat: no-repeat;

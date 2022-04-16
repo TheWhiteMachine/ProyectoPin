@@ -25,17 +25,22 @@
     {
       "src": "slider1.jpg",
       "type": "image/jpg",
-      "sizes": "5616x3744"
+      "sizes": "1400x400"
     },
     {
       "src": "slider2.jpg",
       "type": "image/jpg",
-      "sizes": "5616x3744"
+      "sizes": "1400x400"
     },
     {
       "src": "slider3.jpg",
       "type": "image/jpg",
-      "sizes": "5616x3744"
+      "sizes": "1400x400"
+    },
+    {
+      "src": "cabania1.jpg",
+      "type": "image/jpg",
+      "sizes": "1920x1280"
     }
   ],
   "start_url": ".",
