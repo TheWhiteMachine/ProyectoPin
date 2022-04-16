@@ -1,6 +1,6 @@
 function BarMenu(){
     return(
-        <div className="container">
+     <div className="container">
         <div className="row menu">
             <div className="col">
               <h1 className="MainTititle">CABAÑAPP</h1>
@@ -30,7 +30,6 @@ function BarMenu(){
     </div>
   </div>
 </div>
-          
     )
 }
 export default BarMenu;
