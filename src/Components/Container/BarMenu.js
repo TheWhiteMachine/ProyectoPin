@@ -1,35 +1,37 @@
-function BarMenu(){
-    return(
-     <div className="container">
-        <div className="row menu">
-            <div className="col">
-              <h1 className="MainTititle">CABAÑAPP</h1>
-            </div>
-        <div className="col col_menu">
-        <nav className="navbar navbar-expand-lg navbar-light bg-light ">
-            <div className="collapse navbar-collapse navbar_menu" id="navbarNav">
-                <ul className="navbar-nav">
-                <li className="nav-item active">
-                    <a className="nav-link" href="www.google.com">Home <span className="sr-only"></span></a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="www.google.com">About</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="www.google.com">Cabañas</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="www.google.com">Planes</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="www.google.com">Contacto</a>
-                </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-  </div>
-</div>
+import { makeStyles } from '@material-ui/core/styles';
+import { Grid } from '@material-ui/core';
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+const useStyles = makeStyles(() => ({
+    root: {
+        flexGrow: 1
+    }
+}));
+function BarMenu() {
+    const classes = useStyles();
+    return (
+        <div className="navbar_menu">
+            <Grid container>
+                <Grid item xs={12} lg={12} md={12} sm={12} xl={12} className="grid_menu">
+                    <Navbar sticky="top" bg="primary" variant="dark" expand="lg" className="navbar_menu" >
+                       
+                            <Navbar.Brand href="#" className="nav-link" >CABAÑASPP</Navbar.Brand>
+                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                            <Navbar.Collapse id="basic-navbar-nav" >
+                                <Nav className="me-auto navbar-nav">
+                                    <Nav.Link href="#home">Home</Nav.Link>
+                                    <Nav.Link href="#link">Cabañas</Nav.Link>
+                                    <Nav.Link href="#link">Planes</Nav.Link>
+                                    <Nav.Link href="#link">About</Nav.Link>
+                                    <Nav.Link href="#link">Contacto</Nav.Link>
+                                   
+                                </Nav>
+                            </Navbar.Collapse>
+
+                    </Navbar>
+                </Grid>
+            </Grid>
+        </div>
     )
 }
 export default BarMenu;
