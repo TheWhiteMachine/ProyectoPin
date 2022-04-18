@@ -63,8 +63,9 @@ html{
     height: 100%;
     max-width: 100%;
     width: 100%;
-    padding: 30px;
+   
     margin: 0px;
+    
     background-repeat: no-repeat;
     padding-top: 0;
   }
@@ -92,17 +93,13 @@ html{
   }
 
   .WelcomeText{
-    Color:White;
-    opacity: 0.9;
+   color: black;
     font-size: calc(10px + 2vmin);
     padding-top: 10px; 
-    background-color: grey;
     width: 80%;
     height: 100vh;
-    border-radius: 4%;
-    letter-spacing: 0.67px;
-    background-repeat: no-repeat;
-   
+   letter-spacing: 0.67px;
+  
     margin: 25px;
   }
   .text-box{

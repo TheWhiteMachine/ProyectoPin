@@ -10,19 +10,28 @@ body{
 .navbar_menu{
     padding: 5px;
     margin: auto;
+  
      background-color: rgba(0, 0, 0,0);
+    border-bottom-width: 10px;
+     border-bottom: 2px solid;
+     border-color: black;
     width: 100%;
-   
+    font-size: calc(10px + 1vmin);
    }
+  
    .navbar{
-       color: white !important;
+       color:black !important;
       opacity: 0.9;
-    background-color: rgba(12, 12, 12,0.8) !important;
+    background-color: rgba(0, 0, 0,0) !important;
    }
    .nav-link {
-    color: white !important;
+    color: black !important;
    text-align: end;
    font-weight: bold;
+   font-size: calc(10px + 2vmin);
+    }
+    .nav-link:hover{
+        font-size: calc(10px + 2.5vmin);
     }
     .navbar-nav{
         margin-left: auto;
