@@ -1,7 +1,12 @@
 function FormComponent(){
     return (
-      <section>
-        <form className="MailForm" >
+      <section class="d-flex">
+
+        <div id="form-row" class="row">
+          <div class="col-1">
+          </div>
+        <div class="col-lg-5 col-sm-12">
+          <form class="MailForm" >
         <div className="formulario">
         <div className="mb-3">
           <label htmlFor="exampleInputEmail1" className="form-label" >Dirección de Email</label>
@@ -15,9 +20,15 @@ function FormComponent(){
         <button type="submit" className="btn btn-primary">Enviar</button>
         </div>
       </form>
-      <div className="form-img-container">
-        <img className="img-form" src="./viaje.jpg" alt="fotoviaje"/>
-      </div>
+        </div>
+        <div class="col-lg-5 col-sm-12">
+          <img src="./viaje.jpg" alt="fotoviaje"/>
+        <div class="col-1">
+        </div>
+        </div>
+        </div>
+
+
       </section>
 
     )
