@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
   /* background-color: ffffff; */
@@ -86,18 +89,7 @@
   width: 60vh;
   margin: 10px auto;
 }
-.WelcomeText{
- background-color: rgba(0, 0, 0,0) !important;
-  padding-top: 5%; 
-  letter-spacing: 0.67px;
-  margin: 5%;
-  margin-top: 10px;
-}
-.Welcome{
- 
-   padding-top: 5%; 
-   
- }
+
  
 .bkgImg{
   mask-repeat: no-repeat;

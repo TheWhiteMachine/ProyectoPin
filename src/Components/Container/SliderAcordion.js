@@ -2,16 +2,16 @@ function SliderAcordion(){
     return (
         <section part-container>
 
-        <div class="d-flex">
-        <div class="row">
-        <div class="col-lg-1 col-sm-0">
+        <div className="d-flex">
+        <div className="row">
+        <div className="col-lg-1 col-sm-0">
         </div>
-        <div class="col-lg-5 col-sm-12">
+        <div className="col-lg-5 col-sm-12">
         <div className="accordion">
         <div className="card">
           <div className="card-header" id="headingOne">
             <h5 className="mb-0">
-              <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne">
                 Campo Adentro
               </button>
             </h5>
@@ -55,11 +55,11 @@ function SliderAcordion(){
 
         </div>
 
-        <div class="col-lg-5 col-sm-12">
+        <div className="col-lg-5 col-sm-12">
         <img className="img-aco" src="./cabania2.jpg"/>
         </div>
 
-        <div class="col-lg-1 col-sm-0">
+        <div className="col-lg-1 col-sm-0">
         </div>
 
         </div>

@@ -11,27 +11,24 @@ body{
     padding: 5px;
     margin: auto;
   
-     background-color: rgba(0, 0, 0,0);
+     background-color: rgba(0, 0, 0, 0.24);
     border-bottom-width: 10px;
      border-bottom: 2px solid;
-     border-color: black;
+     border-color:rgba(251, 253, 252, 0.575);
+     border-spacing: 40px;
     width: 100%;
-<<<<<<< HEAD
     font-size: calc(10px + 1vmin);
-=======
-
->>>>>>> 3e01a299e73c2f7b6b55c11d3d555e2c50bfd61d
    }
   
    .navbar{
-       color:black !important;
+       color:white !important;
       opacity: 0.9;
     background-color: rgba(0, 0, 0,0) !important;
    }
    .nav-link {
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
    text-align: end;
-   font-weight: bold;
+   font-family: Arial;
    font-size: calc(10px + 2vmin);
     }
     .nav-link:hover{
@@ -40,3 +37,15 @@ body{
     .navbar-nav{
         margin-left: auto;
     }
+.welcome_text{
+    width: 60%;
+    background-color: rgba(7, 7, 7, 0.315);
+    color: rgb(252, 247, 247);
+    border-radius: 2px;
+    padding: 10px;
+}
+.izquierda{
+    width: 10%;
+    height: 200px;
+    background-color: orangered !important;
+}

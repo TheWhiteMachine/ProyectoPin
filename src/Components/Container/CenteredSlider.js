@@ -1,9 +1,11 @@
-function CenteredSlider(){
+function CenteredSlider() {
     return (
-        <section className="centered-slider part-container">
-            <h4>CenteredSlider</h4>
+        <div id="planes">
+            <section className="centered-slider part-container">
+                <h4>CenteredSlider</h4>
 
-        </section>
+            </section>
+        </div>
     )
 }
 export default CenteredSlider;
