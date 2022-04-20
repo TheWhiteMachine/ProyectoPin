@@ -20,10 +20,10 @@ function BarMenu() {
                             <Navbar.Collapse id="basic-navbar-nav" >
                                 <Nav className="me-auto navbar-nav">
                                     <Nav.Link href="#home">Home</Nav.Link>
-                                    <Nav.Link href="#link">Cabañas</Nav.Link>
-                                    <Nav.Link href="#link">Planes</Nav.Link>
-                                    <Nav.Link href="#link">About</Nav.Link>
-                                    <Nav.Link href="#link">Contacto</Nav.Link>
+                                    <Nav.Link href="#cabanias">Cabañas</Nav.Link>
+                                    <Nav.Link href="#planes">Planes</Nav.Link>
+                                    <Nav.Link href="#about">About</Nav.Link>
+                                    <Nav.Link href="#mailform">Contacto</Nav.Link>
                                    
                                 </Nav>
                             </Navbar.Collapse>

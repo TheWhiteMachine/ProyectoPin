@@ -13,12 +13,10 @@ function Container(){
         {/* <img className="backgroundimg" src={process.env.PUBLIC_URL +'./cabania.jpg'} alt="imagen de fondo"></img> */}
         <BarMenu/>
            <WelcomeMesagge/>
-          
-           <SliderX3/>
-        
            <FullText/>
-           <CenteredSlider/>
+           <SliderX3/>
            <SliderAcordion/>
+           <CenteredSlider/>
            <FormComponent/>
           
        </div> 

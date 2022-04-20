@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel'
 function SliderX3(){
     return (
-    <section className="slider-3 part-container">
+    <section className="slider-3 part-container" id="planes">
     <Carousel>
   <Carousel.Item interval={1000}>
     <img

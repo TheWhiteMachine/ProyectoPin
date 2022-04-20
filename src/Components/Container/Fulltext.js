@@ -1,6 +1,6 @@
 function FullText(){
     return (
-        <section className="text-box">
+        <section className="text-box" id="about">
             <div className="text-paragraph">
             <h2>Irse un poco</h2>
             <h3>para volver mejor</h3>
