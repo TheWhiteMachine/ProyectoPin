@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    padding: 0px 10px 10px 10px;
-   
+    padding: 0;
+
 }
 .grid_menu{
     padding: 5px;
-   
+
    }
 .navbar_menu{
     padding: 5px;
@@ -16,7 +16,11 @@ body{
      border-bottom: 2px solid;
      border-color: black;
     width: 100%;
+<<<<<<< HEAD
     font-size: calc(10px + 1vmin);
+=======
+
+>>>>>>> 3e01a299e73c2f7b6b55c11d3d555e2c50bfd61d
    }
   
    .navbar{
@@ -36,5 +40,3 @@ body{
     .navbar-nav{
         margin-left: auto;
     }
-   
-   
