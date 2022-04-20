@@ -13,6 +13,7 @@ function FormComponent() {
     const property = event.target.name
     const value = event.target.value
     setUserData ({...userData, [property]:value })
+    console.log(userData)
   }
   const handleSubmit = function(event){
     event.preventdefault()
@@ -24,7 +25,7 @@ function FormComponent() {
       }.then(result=> console.log(result.data))
     )}
 
-  const disable =!(email.length || user.length || phone.length || comment.length)
+  const disable =!(userData.email.length || userData.user.length || userData.phone.length || userData.comment.length)
 
   
     return (
