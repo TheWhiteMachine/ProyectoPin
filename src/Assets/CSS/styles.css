@@ -10,7 +10,7 @@ body{
 .navbar_menu{
     padding: 5px;
     margin: auto;
-  
+
      background-color: rgba(0, 0, 0, 0.24);
     border-bottom-width: 10px;
      border-bottom: 2px solid;
@@ -19,7 +19,7 @@ body{
     width: 100%;
     font-size: calc(10px + 1vmin);
    }
-  
+
    .navbar{
        color:white !important;
       opacity: 0.9;
@@ -45,7 +45,7 @@ body{
     padding: 10px;
 }
 .izquierda{
-    width: 10%;
-    height: 200px;
+    width: 1.5%;
+    margin-right: 8%;
     background-color: orangered !important;
 }
