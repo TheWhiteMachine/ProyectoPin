@@ -20,12 +20,18 @@ function FormComponent() {
       phone: phone,
       text: text
     });
-    console.log(res);
+    if (res.status = 200) {
+      setNombre('');
+      setMail('');
+      setPhone('');
+      setMessage('');
+      alert("Su mensaje ha sido enviado correctamente");
+    }
+    else {
+      alert("Ups.!! Hubo un error");
+    }
 
   }
-
-
-
 
   return (
     <section className="d-flex">
@@ -92,8 +98,6 @@ function FormComponent() {
           </div>
         </div>
       </div>
-
-
     </section>
 
   )
