@@ -1,4 +1,4 @@
-function CenteredSlider(){
+function CenteredSlider() {
     return (
         <section className="centered-slider part-container" id="cabanias">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">

@@ -10,20 +10,42 @@ body{
 .navbar_menu{
     padding: 5px;
     margin: auto;
-     background-color: rgba(0, 0, 0,0);
+  
+     background-color: rgba(0, 0, 0, 0.24);
+    border-bottom-width: 10px;
+     border-bottom: 2px solid;
+     border-color:rgba(251, 253, 252, 0.575);
+     border-spacing: 40px;
     width: 100%;
-
+    font-size: calc(10px + 1vmin);
    }
+  
    .navbar{
-       color: white !important;
+       color:white !important;
       opacity: 0.9;
-    background-color: rgba(12, 12, 12,0.8) !important;
+    background-color: rgba(0, 0, 0,0) !important;
    }
    .nav-link {
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
    text-align: end;
-   font-weight: bold;
+   font-family: Arial;
+   font-size: calc(10px + 2vmin);
+    }
+    .nav-link:hover{
+        font-size: calc(10px + 2.5vmin);
     }
     .navbar-nav{
         margin-left: auto;
     }
+.welcome_text{
+    width: 60%;
+    background-color: rgba(7, 7, 7, 0.315);
+    color: rgb(252, 247, 247);
+    border-radius: 2px;
+    padding: 10px;
+}
+.izquierda{
+    width: 10%;
+    height: 200px;
+    background-color: orangered !important;
+}

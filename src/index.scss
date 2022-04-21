@@ -18,6 +18,7 @@ img {
 
 html{
   scroll-behavior: smooth;
+  overflow-y: scroll;
 }
 
   .App-logo {
@@ -59,12 +60,20 @@ html{
   .MainContainer{
     left: 0px;
     width: 100%;
+
+   
+    margin: 0px;
+    
+    background-repeat: no-repeat;
+    padding-top: 0;
+    scroll-behavior: smooth;
     height: 768px;
     background: transparent url('../public/cabania.jpg') 0% 0% no-repeat padding-box;
     background-position: center top;
     background-size: 100% auto;
     padding: 30px;
     opacity: 1;
+
   }
 
   .part-container{
@@ -84,27 +93,14 @@ html{
   }
   .container{
     opacity: 0.95;
-    background-color: rgba(0, 0, 0,0.9) ;
+    background-color: rgba(255, 251, 251, 0.418) ;
     margin: 0%;
     max-width: 100%;
     /*border-bottom: 6px solid rgb(66, 65, 65);*/
     align-items: center;
   }
 
-  .WelcomeText{
-    Color:White;
-    opacity: 0.9;
-    font-size: calc(10px + 2vmin);
-    padding-top: 10px;
-    background-color: grey;
-    width: 80%;
-    height: 70%;
-    border-radius: 4%;
-    letter-spacing: 0.67px;
-    background-repeat: no-repeat;
-
-    margin: 25px;
-  }
+  
   .text-box{
     display: block;
     width: 100%;
@@ -176,7 +172,13 @@ html{
 
 .centered-slider{
   display: block;
-  height: 200px;
+  padding: 50px;
+ 
+}
+.centered-slider img{
+ max-width: 70vh;
+ margin:auto;
+
 }
   .MailForm{
     margin: 20px,20px;

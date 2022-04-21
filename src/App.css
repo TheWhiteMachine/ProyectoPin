@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .App {
   text-align: center;
   /* background-color: ffffff; */
@@ -47,6 +50,8 @@
   max-width: 100%;
   width: 100%;
   margin: 0px;
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
   background-repeat: no-repeat;
   align-items: center;
 }
@@ -55,18 +60,14 @@
   color:azure;
  
 }
-.menu{
- padding: 10px;
- background-color: rgba(0, 0, 0,0.03) ;
- padding-right: 10px;
-}
+
 .container{
-  opacity: 0.95;
+ 
   background-color: rgba(0, 0, 0,0.9) ;
   margin: 0%;
   max-width: 100%;
-  border:none;
-  border-style: solid;
+
+ 
   /*border-bottom: 6px solid rgb(66, 65, 65);*/
   align-items: center;
 }
@@ -88,18 +89,8 @@
   width: 60vh;
   margin: 10px auto;
 }
-.WelcomeText{
-  Color:White;
-  opacity: 0.9;
-  padding-top: 10px; 
- 
-  letter-spacing: 0.67px;
-  background-repeat: no-repeat;
- 
-  margin: 5%;
-  margin-top: 10px;
-}
 
+ 
 .bkgImg{
   mask-repeat: no-repeat;
   width: 300px;
