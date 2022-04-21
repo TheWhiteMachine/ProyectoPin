@@ -17,9 +17,9 @@
             {!! $errors->first('phone', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
-            {{ Form::label('message') }}
-            {{ Form::text('message', $contact->message, ['class' => 'form-control' . ($errors->has('message') ? ' is-invalid' : ''), 'placeholder' => 'Message']) }}
-            {!! $errors->first('message', '<div class="invalid-feedback">:message</div>') !!}
+            {{ Form::label('text') }}
+            {{ Form::text('text', $contact->text, ['class' => 'form-control' . ($errors->has('text') ? ' is-invalid' : ''), 'placeholder' => 'Message']) }}
+            {!! $errors->first('text', '<div class="invalid-feedback">:message</div>') !!}
         </div>
 
     </div>

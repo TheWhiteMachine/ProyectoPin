@@ -25,6 +25,7 @@ class Contact extends Model
 		'name' => 'required',
 		'email' => 'required',
 		'phone' => 'required',
+    'text' => 'required',
     ];
 
     protected $perPage = 20;
@@ -34,7 +35,7 @@ class Contact extends Model
      *
      * @var array
      */
-    protected $fillable = ['name','email','phone','message'];
+    protected $fillable = ['name','email','phone','text'];
 
 
 
