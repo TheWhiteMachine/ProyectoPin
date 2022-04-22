@@ -10,10 +10,10 @@ const useStyles = makeStyles(() => ({
 function BarMenu() {
     const classes = useStyles();
     return (
-        <div >
+        <div  >
             <Grid container>
                 <Grid item xs={12} lg={12} md={12} sm={12} xl={12}className="navbar_menu">
-                    <Navbar sticky="top" bg="light" variant="dark" expand="lg"  >
+                    <Navbar sticky="top" bg="light" variant="dark" expand="lg">
                        
                             <Navbar.Brand href="#" className="nav-link" >CABAÑASPP</Navbar.Brand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
