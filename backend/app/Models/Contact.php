@@ -25,7 +25,11 @@ class Contact extends Model
 		'name' => 'required',
 		'email' => 'required',
 		'phone' => 'required',
+<<<<<<< HEAD
         'text' => 'required',
+=======
+    'text' => 'required',
+>>>>>>> layoutmobile
     ];
 
     protected $perPage = 20;

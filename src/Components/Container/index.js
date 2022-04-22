@@ -33,6 +33,10 @@ function Container() {
                     <Grid item xs={2} lg={2} md={2} sm={2} xl={2}>
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> layoutmobile
                     </Grid>
                     <Grid item xs={10} lg={10} md={10} sm={10} xl={10}>
 
