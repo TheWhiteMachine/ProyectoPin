@@ -22,8 +22,8 @@ function BarMenu() {
                                     <Nav.Link href="#home">Home</Nav.Link>
                                     <Nav.Link href="#cabanias">Cabañas</Nav.Link>
                                     <Nav.Link href="#planes">Planes</Nav.Link>
-                                    <Nav.Link href="#link">About</Nav.Link>
-                                    <Nav.Link href="#contact">Contacto</Nav.Link>
+                                    <Nav.Link href="#about">About</Nav.Link>
+                                    <Nav.Link href="#mailform">Contacto</Nav.Link>
                                    
                                 </Nav>
                             </Navbar.Collapse>

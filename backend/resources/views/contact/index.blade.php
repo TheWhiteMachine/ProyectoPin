@@ -25,7 +25,7 @@
                     </div>
                     @if ($message = Session::get('success'))
                         <div class="alert alert-success">
-                            <p>{{ $message }}</p>
+                            <p>{{ $text }}</p>
                         </div>
                     @endif
 
@@ -52,7 +52,7 @@
 											<td>{{ $contact->name }}</td>
 											<td>{{ $contact->email }}</td>
 											<td>{{ $contact->phone }}</td>
-											<td>{{ $contact->message }}</td>
+											<td>{{ $contact->text }}</td>
 
                                             <td>
                                                 <form action="{{ route('contacts.destroy',$contact->id) }}" method="POST">

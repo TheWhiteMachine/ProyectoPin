@@ -32,9 +32,6 @@ function Container() {
                 <Grid container spacing={1}>
                     <Grid item xs={2} lg={2} md={2} sm={2} xl={2}>
 
-                        <div className="izquierda">
-
-                        </div>
 
                     </Grid>
                     <Grid item xs={10} lg={10} md={10} sm={10} xl={10}>
@@ -43,11 +40,12 @@ function Container() {
 
                     </Grid>
                 </Grid>
-                <Grid item xs={12} lg={12} md={12} sm={12} xl={12}>
+                {   /*   <Grid item xs={12} lg={12} md={12} sm={12} xl={12}>
 
                     <CenteredSlider />
 
                 </Grid>
+                */}
             </Grid>
 
 

@@ -34,7 +34,7 @@
                         </div>
                         <div class="form-group">
                             <strong>Message:</strong>
-                            {{ $contact->message }}
+                            {{ $contact->text }}
                         </div>
 
                     </div>

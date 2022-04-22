@@ -25,7 +25,7 @@ return Contact::find($id);
 });
 Route::post('contacts',function(Request $request){
     return Contact::create($request->all());
-});
+})->middleware("cors");
 Route::put('contacts/(id)',function(Request $request, $id){
     $contact=Contact::findOrFail($id);
     $contact->update($request->all());

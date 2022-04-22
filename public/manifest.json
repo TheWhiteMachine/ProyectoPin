@@ -41,6 +41,21 @@
       "src": "cabania1.jpg",
       "type": "image/jpg",
       "sizes": "1920x1280"
+    },
+    {
+      "src": "c1.jpg",
+      "type": "image/jpg",
+      "sizes": "1920x1280"
+    },
+    {
+      "src": "c2.jpg",
+      "type": "image/jpg",
+      "sizes": "1920x1280"
+    },
+    {
+      "src": "c3.jpg",
+      "type": "image/jpg",
+      "sizes": "1920x1280"
     }
   ],
   "start_url": ".",
