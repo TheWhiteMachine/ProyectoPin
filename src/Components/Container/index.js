@@ -14,7 +14,7 @@ function Container() {
             <Grid container spacing={3}>
                 <Grid item xs={12} lg={12} md={12} sm={12} xl={12}>
 
-                    <BarMenu />
+                    <BarMenu/>
 
                 </Grid>
                 <Grid item xs={12} lg={12} md={12} sm={12} xl={12}>

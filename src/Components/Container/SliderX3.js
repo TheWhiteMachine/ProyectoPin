@@ -37,7 +37,7 @@ function SliderX3() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <div class="text-content-area">
+      <div className="text-content-area">
       <div className="d-flex">
       <div className="izquierda">
 

@@ -96,3 +96,6 @@ html {
   width: 300px;
   
 }
+.img_accordion{
+  object-fit: cover;
+}

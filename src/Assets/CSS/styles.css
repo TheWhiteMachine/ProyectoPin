@@ -10,7 +10,7 @@ body{
 .navbar_menu{
     padding: 5px;
     margin: auto;
-     background-color: rgba(0, 0, 0, 0.24);
+     background-color: rgba(0, 0, 0, 0.603);
     border-bottom-width: 10px;
      border-bottom: 2px solid;
      border-color:rgba(251, 253, 252, 0.575);
@@ -38,10 +38,10 @@ body{
     }
 .welcome_text{
     width: 60%;
-    background-color: rgba(7, 7, 7, 0.315);
+    background-color: rgba(7, 7, 7, 0.603);
     color: rgb(252, 247, 247);
-    border-radius: 2px;
-    padding: 10px;
+    border-radius: 3px;
+    padding: 30px;
 }
 .izquierda{
     width: 1.5%;
