@@ -75,7 +75,7 @@ html{
     background-position: center top;
     background-size: 100% auto;
     padding: 30px;
-    opacity: 1;
+
 
   }
 
@@ -83,7 +83,7 @@ html{
     padding: 60px 6;
     position: relative;
     max-height: 100%;
-    // margin :auto;
+
   }
   .MainTititle{
     color:azure;
@@ -91,34 +91,28 @@ html{
   }
   .menu{
    padding: 10px;
-   background-color: rgba(0, 0, 0,0.03) ;
+   background-color: #000000d4 ;
    padding-right: 10px;
   }
   .container{
-    opacity: 0.95;
-    background-color: rgba(255, 251, 251, 0.418) ;
+     background-color: rgb(29, 20, 20) ;
     margin: 0%;
     max-width: 100%;
     /*border-bottom: 6px solid rgb(66, 65, 65);*/
     align-items: center;
   }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> layoutmobile
   .text-box{
     display: block;
     width: 100%;
     padding: 80px hidden;
     position: relative;
-    background-color: #FFFFFF00;
+    background-color: #29292900;
 
   }
   .text-paragraph{
     display:block;
     position: relative;
-    z-index: 2;
     width: 100%;
   }
   .text-pic{
@@ -136,9 +130,10 @@ html{
 
   #form-row {
     margin-top: 80px;
-    background: #33333312;;
+    background: #3333330b;;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin:auto;
   }
 
   label.form-label {
@@ -159,48 +154,37 @@ html{
 }
 
   .slider-3{
-    position: relative;
     margin: auto;
     margin-top: 30%;
     padding: 20px;
-    max-width: 150vh;
     width: 100%;
     height: auto;
     background-color: #F2F4F1;
     margin-bottom: 0;
   }
 .accordion{
-  position: relative;
+
   display: block;
-  margin-left: 40px;
-  z-index: 1;
+  margin:auto;
+  width: 80%;
 }
 .img-aco{
   width: auto;
   max-height: 25vw;
-  z-index: 2;
 }
 
-.centered-slider{
-  display: block;
-  padding: 50px;
 
-}
-.centered-slider img{
- max-width: 70vh;
- margin:auto;
-
-}
   .MailForm{
     margin: 20px,20px;
     display: block;
+    color: rgb(4, 4, 4);
     width: 95%;
     border-radius: 3px;
     border:none;
     border-style: 1px solid;
   }
   .formulario{
-    color: white;
+    color: rgb(4, 4, 4);
     padding-top: 10px;
     padding-bottom: 10px;
     width: 60vh;
@@ -210,9 +194,9 @@ html{
 .form-img-container{
   position: relative;
   max-width: 60%;
-
-  z-index: 1;
+  color: rgb(4, 4, 4);
 }
+
 .img-form{
   width: auto;
   position: absolute;
@@ -224,23 +208,24 @@ html{
 
   .bkgImg{
     mask-repeat: no-repeat;
-    width: 300px;
+    width: 200px;
 
   }
   .col_menu{
 
-    background-color: rgba(0, 0, 0,0.03) ;
+    background-color: rgba(0, 0, 0, 0.052) ;
   }
   .navbar_menu{
 
-    background-color: rgba(0, 0, 0,0.03) ;
+    background-color: #141619 ;
   }
 
 
 @media only screen and (max-width: 600px) {
 
   .welcome_text {
-      display:none;
+ 
+      background-color: #141619c4;
   }
 
   .izquierda {

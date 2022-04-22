@@ -10,7 +10,6 @@ import { Grid } from '@material-ui/core';
 function Container() {
     return (
         <div className="MainContainer">
-            {/* <img className="backgroundimg" src={process.env.PUBLIC_URL +'./cabania.jpg'} alt="imagen de fondo"></img> */}
 
             <Grid container spacing={3}>
                 <Grid item xs={12} lg={12} md={12} sm={12} xl={12}>
@@ -33,23 +32,23 @@ function Container() {
                     <Grid item xs={2} lg={2} md={2} sm={2} xl={2}>
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> layoutmobile
                     </Grid>
                     <Grid item xs={10} lg={10} md={10} sm={10} xl={10}>
 
                         <FullText />
 
                     </Grid>
-                </Grid>
-                {   /*   <Grid item xs={12} lg={12} md={12} sm={12} xl={12}>
+                    <Grid item xs={10} lg={10} md={10} sm={10} xl={10}>
+                 
+                    <SliderAcordion />
 
-                    <CenteredSlider />
+                    </Grid>
+                    <Grid item xs={10} lg={10} md={10} sm={10} xl={10}>
+                 
+                    <FormComponent />
 
+                     </Grid>
                 </Grid>
-                */}
             </Grid>
 
 
@@ -59,8 +58,8 @@ function Container() {
 
 
 
-            <SliderAcordion />
-            <FormComponent />
+           
+
 
         </div >
 

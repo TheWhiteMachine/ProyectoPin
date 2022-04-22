@@ -39,7 +39,7 @@ function SliderAcordion() {
           </div>
 
           <div className="col-lg-5 col-sm-12">
-            <img className="img-aco" src="./cabania2.jpg" />
+            <img  src="./cabania2.jpg" />
           </div>
 
           <div className="col-lg-1 col-sm-0">
